@@ -18,7 +18,7 @@
   background-color: tomato;
 }
 
-.box-w .box:hover,
+/* .box-w .box:hover, */
 .box-w .box:hover ~ .box {
   background-color: yellow;
 }
