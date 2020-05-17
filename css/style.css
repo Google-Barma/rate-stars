@@ -1,0 +1,24 @@
+.box-w {
+  display: flex;
+  /* flex-direction: row-reverse; */
+  /* justify-content: flex-end; */
+}
+
+.box {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+}
+.box {
+  padding: 10px;
+  background-clip: content-box;
+}
+
+.box-w:hover .box {
+  background-color: tomato;
+}
+
+.box-w .box:hover,
+.box-w .box:hover ~ .box {
+  background-color: yellow;
+}
