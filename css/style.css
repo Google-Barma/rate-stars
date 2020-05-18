@@ -19,6 +19,6 @@
 }
 
 /* .box-w .box:hover, */
-.box-w .box:hover ~ .box {
+.box:hover ~ .box {
   background-color: yellow;
 }
